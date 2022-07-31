@@ -21,7 +21,7 @@ func Multiply(a, b int) int {
 ## 6. Work experience:
 ### Trainee auditor 2020 - 2021
 ### Engineer 2021 - 2022
-### My first projext is this [CV] (https://TimofeyNaryshkin.github.io/rsschool-cv/cv).
+### My first projext is this [CV] (https://TimofeyNaryshkin.github.io/rsschool-cv/cv)
 ## 7. Education:
 ### Bachelor degree in economics, 
 ### Finished next beginner courses:
