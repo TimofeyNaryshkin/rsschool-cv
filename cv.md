@@ -1,7 +1,6 @@
 ## 1. TIMOFEY NARYSHKIN
 ## Beginner web developer
 ## 2. Contacts: Discord: TimofeyNaryshkin
-! [alt text] (https://github.com/TimofeyNaryshkin/rsschool-cv/raw/gh-pages/photo.jpeg)
 ## 3. Profile
 ### My goal is becoming a front-end web developer to create my own or take prat in someone's product and make it popular.
 ### My strenghs are:
