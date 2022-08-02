@@ -1,5 +1,6 @@
 ## 1. TIMOFEY NARYSHKIN
 ## Beginner web developer
+![](photo.jpeg)
 ## 2. Contacts: Discord: TimofeyNaryshkin
 ## 3. Profile
 ### My goal is becoming a front-end web developer to create my own or take prat in someone's product and make it popular.
