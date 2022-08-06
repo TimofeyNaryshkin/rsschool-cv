@@ -10,8 +10,9 @@
 ### curiosity
     
 ## 4. Skills:
-### VS code, 
-### GIT hub
+### HTML
+### CSS
+### GitHub
 ## 5. Code example:
 ```
 package multiply
