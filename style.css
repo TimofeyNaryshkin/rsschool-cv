@@ -80,3 +80,23 @@ html {
 .nav-item {
     color: white;
 }
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.footer-items {
+    margin: 2%;
+}
+.rss-logo {
+    width: 150px;
+    height: 75px;
+}
+.git-logo {
+    width: 75px;
+    height: 75px;
+}
