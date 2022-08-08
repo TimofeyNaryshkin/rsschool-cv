@@ -107,8 +107,7 @@ html {
 }
 .list-item {
     position: relative;
-    padding-left: 20px;
-    margin-left: 10px;
+    padding-left: 30px;
 }
 .list-item::before {
     content: "";
@@ -122,7 +121,7 @@ html {
 } 
 .list {
     list-style: none;
-    padding: 0px;
+    padding: 10px;
 }
 .section-profile {
     display: flex;
