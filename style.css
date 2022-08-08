@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+.body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+}
+.header {
+    background-color: black;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font: 18px Raleway, sans-serif;
+    transition: .3s;
+    color: white;
+}
+.nav-link:hover {
+    color: whitesmoke;
+}
+.img {
+    width: 220px;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.section {
+    width: 50%;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.section-title.h1 {
+    font-size: 30px;
+}
+.cv-link {
+    text-decoration: none; 
+    transition: .3s;
+    color: rgb(18, 157, 157);
+}
+.cv-link:hover {
+    color: #6666FF;
+}
+.nav-item {
+    color: white;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    line-height: 50px;
+}
+.footer-items {
+    margin: 2%;
+}
+.rss-logo {
+    width: 150px;
+    height: 75px;
+}
+.git-logo {
+    width: 75px;
+    height: 75px;
+}
+.list-item {
+    position: relative;
+    padding-left: 30px;
+}
+.list-item::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid rgb(18, 157, 157);
+    border-radius: 50%;
+} 
+.list {
+    list-style: none;
+}
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 35px 50px;
+    border-bottom: 15px solid rgba(18, 157, 157, 0.773);
+}
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
