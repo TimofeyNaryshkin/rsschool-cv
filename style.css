@@ -121,6 +121,7 @@ html {
 } 
 .list {
     list-style: none;
+    padding: 10px;
 }
 .section-profile {
     display: flex;
