@@ -41,5 +41,5 @@ I started as a manager at auridion company during my third year in universuty. A
 My level of English is in the range of C1 ADVANCED to C2 PROFICIENT, according to the guidelines set by the Common European Framework of Reference (CEFR).
 
 ## Projects
-**[Plants task in RSShool]**(https://rolling-scopes-school.github.io/timofeynaryshkin-JSFEPRESCHOOL2022Q4/plants/)
+[Plants task in RSShool](https://rolling-scopes-school.github.io/timofeynaryshkin-JSFEPRESCHOOL2022Q4/plants/)
 
