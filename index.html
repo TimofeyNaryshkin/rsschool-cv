@@ -1,13 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>CV</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#skills">SKILLS</a>
+          </li>
+          <li>
+            <a href="#projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#experience">EXPERIENCE</a>
+          </li>
+          <li>
+            <a href="#education">EDUCATION</a>
+          </li>
+          <li>
+            <a href="#languages">LANGUAGES</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Timofey Naryshkin</h1>
+      <div class="flexbox hero">
+        <img src="./img/CV-photo.jpg" class="photo" alt="photo" />
+        <section id="" class="about">
+          <h2>Contacts</h2>
+          <ul>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:naryshkint4@gmail.com">naryshkint4@gmail.com</a>
+            </li>
+            <li>
+              <strong>Discord:</strong>
+              <a href="https://discord.gg/qhMq54Fs" target="_blank"
+                >timofey_naryshkin</a
+              >
+            </li>
+            <li>
+              <strong>Telegram:</strong>
+              <a href="https://t.me/D0rathy" target="_blank">@D0rathy</a>
+            </li>
+          </ul>
+          <h2>About me</h2>
+          <p>
+            My goal is to make many usefull connections with lots of amazing
+            people on my way to become a software engineer.
+          </p>
+        </section>
+      </div>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS/SASS</li>
+          <li>JS/TS</li>
+          <li>GIT</li>
+          <li>REACT</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://rest-client-app-rs.netlify.app" target="_blank"
+              >REST Client</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://our-ecommerce-sprint4.netlify.app/"
+              target="_blank"
+            >
+              eCommerce-Application</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section id="code">
+        <h2>Code example</h2>
+        <code
+          >function capitalizeWord(word) { let newWord = word[0].toUpperCase();
+          for (let i = 1; i &lt; word.length; i++) { newWord = newWord +
+          word[i]; } return newWord; }
+        </code>
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <p>
+          I started as a manager at audit company during my third year in
+          universuty. Aafter graduation I worked as an economist at the local
+          combination heating and power plant for 6 months.
+        </p>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <strong>University:</strong>Amur State University/ Financial
+            economist
+          </li>
+          <li>
+            <strong>Courses:</strong>
+            <ul>
+              <li>RSS React 2025 Q1</li>
+              <li>RSS JavaScript/Front-end 2024Q4</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section id="languages">
+        <h2>Languages</h2>
+        <p>Russian - mother tongue</p>
+        <p>English - upper intermediate</p>
+      </section>
+    </main>
+    <footer>
+      <div class="flexbox">
+        <a href="https://github.com/TimofeyNaryshkin" target="_blank"
+          ><img
+            class="github-logo"
+            src="./img/github-mark.svg"
+            alt="github-logo"
+        /></a>
+        <p><strong>TimofeyNaryshkin</strong> 2025</p>
+        <a href="https://rs.school/courses/short-track" target="_blank"
+          ><img class="rss-logo" src="./img/rs-school-logo.svg" alt="rss-logo"
+        /></a>
+      </div>
+    </footer>
+  </body>
 </html>
